@@ -279,13 +279,9 @@
     <Content Include="Views\DemoSite\Layouts\MainLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Feature\Hero\Feature.Hero\Feature.Hero.csproj">
-      <Project>{1cd01500-7658-4e86-83b8-195d99dcbf85}</Project>
-      <Name>Feature.Hero</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\Feature\Navigation\Feature.Navigation\Feature.Navigation.csproj">
-      <Project>{9c020254-dd42-468a-bce5-231e420bd271}</Project>
-      <Name>Feature.Navigation</Name>
+    <ProjectReference Include="..\..\..\Feature\Components\Feature.Components\Feature.Components.csproj">
+      <Project>{317988d8-b10e-4cd7-9a04-20ffda743eca}</Project>
+      <Name>Feature.Components</Name>
     </ProjectReference>
     <ProjectReference Include="..\..\..\Foundation\Orm\Foundation.Orm\Foundation.Orm.csproj">
       <Project>{f10b8353-4a91-48e7-8396-b0e5a1a0a4c3}</Project>
