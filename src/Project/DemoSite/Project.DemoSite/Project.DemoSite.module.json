@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Project.DemoSite",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Project/DemoSite",
+        "scope": "descendantsOnly"
+      },
+      {
+        "name": "renderings",
+        "path": "/sitecore/layout/Renderings/Project/DemoSite",
+        "scope": "descendantsOnly"
+      },
+      {
+        "name": "layouts",
+        "path": "/sitecore/layout/Layouts/Project/DemoSite",
+        "scope": "descendantsOnly"
+      },
+      {
+        "name": "placeholders",
+        "path": "/sitecore/layout/Placeholder Settings/Project/DemoSite",
+        "scope": "descendantsOnly"
+      }
+    ]
+  }
+}

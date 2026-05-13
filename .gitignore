@@ -1,0 +1,39 @@
+# may contain OAuth secrets, do not commit
+.sitecore/user.json
+
+# package reference cache
+.sitecore/package-cache
+.sitecore/.cache
+
+# Ephemeral index caches used by serialization, do not commit
+.scindex
+
+# Don't commit packages
+*.itempackage
+*.sicpackage
+
+# Visual Studio publish user state
+*.pubxml.user
+
+# Build output
+bin/
+obj/
+build-check/
+build-check-hero/
+build-obj-hero/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# NuGet package folders
+packages/
+
+# Local Visual Studio migration/backups
+DemoSite/.vs/
+DemoSite/Backup*/
+DemoSite/UpgradeLog*.htm
+
+# Personal notes
+docs/

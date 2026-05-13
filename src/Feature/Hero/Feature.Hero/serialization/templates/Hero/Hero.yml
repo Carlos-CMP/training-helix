@@ -1,0 +1,43 @@
+﻿---
+ID: "6ef2c3f8-bc53-4015-9352-2c8d2c62c685"
+Parent: "dcb5db46-0b58-4de2-a2a8-e92c12cc17ac"
+Template: "ab86861a-6030-46c5-b394-e8f99e8b87db"
+Path: /sitecore/templates/Feature/Hero/Hero
+SharedFields:
+- ID: "12c33f3f-86c5-43a5-aeb4-5598cec45116"
+  Hint: __Base template
+  Value: |
+    {1930BBEB-7805-471A-A3BE-4858AC7CF696}
+    {77CC8D4C-7057-49B5-8F63-470C762F8F3E}
+    {97BEFF4C-2331-4418-A419-D7ACB2409B0E}
+    {A9850BBE-3257-4E91-8444-63C03AF93521}
+    {F2160EAF-DCA9-4475-B3C0-1A734566BCB6}
+- ID: "f7d48a55-2158-4f02-9356-756654404f73"
+  Hint: __Standard values
+  Value: "{F80B5294-CF03-4B36-9ED2-878BFAF48F6D}"
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20260415T105602Z
+    - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
+      Hint: __Owner
+      Value: |
+        sitecore\Admin
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
+      Hint: __Revision
+      Value: "ac46210f-e8e2-4da1-9277-84922691c304"
+    - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
+      Hint: __Updated by
+      Value: |
+        sitecore\Admin
+    - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
+      Hint: __Updated
+      Value: 20260416T123753Z

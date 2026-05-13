@@ -1,0 +1,18 @@
+<Solution>
+  <Folder Name="/Feature/">
+    <Project Path="../src/Feature/Hero/Feature.Hero/Feature.Hero.csproj" Id="1cd01500-7658-4e86-83b8-195d99dcbf85" />
+    <Project Path="../src/Feature/Navigation/Feature.Navigation/Feature.Navigation.csproj" Id="9c020254-dd42-468a-bce5-231e420bd271" />
+  </Folder>
+  <Folder Name="/Foundation/">
+    <Project Path="../src/Foundation/Orm/Foundation.Orm/Foundation.Orm.csproj" Id="f10b8353-4a91-48e7-8396-b0e5a1a0a4c3" />
+    <Project Path="../src/Foundation/SerializationUnicorn/Foundation.SerializationUnicorn/Foundation.SerializationUnicorn.csproj" Id="c51d9486-0379-40f9-a5bc-c5c68c90c90a" />
+    <Project Path="../src/Foundation/SitecoreExtensions/Foundation.SitecoreExtensions/Foundation.SitecoreExtensions.csproj" Id="5e4efbe2-4608-4127-87af-936730fee5f7" />
+    <Project Path="../src/Foundation/Theming/Foundation.Theming/Foundation.Theming.csproj" Id="84cdb370-90ea-4892-8519-04e656c8a7dc" />
+  </Folder>
+  <Folder Name="/Project/">
+    <Project Path="../src/Project/DemoSite/Project.DemoSite/Project.DemoSite.csproj" Id="4523707a-e011-4001-acac-6f37ea339253" />
+  </Folder>
+  <Properties Name="ExtensibilityGlobals" Scope="PostLoad">
+    <Property Name="EnterpriseLibraryConfigurationToolBinariesPathV6" Value="packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Caching.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.ServiceBus.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.WindowsAzure.Storage.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.TransientFaultHandling.Configuration.6.0.1304.0\lib\NET45" />
+  </Properties>
+</Solution>

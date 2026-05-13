@@ -1,0 +1,16 @@
+@using Sitecore.Mvc
+@using Sitecore.Mvc.Presentation
+@model RenderingModel
+
+@{
+    var item = Model.Rendering.Item;
+}
+
+<div class="hero">
+    <p>Runtime item: @item.Paths.FullPath</p>
+    <span>prueba publish</span>
+    <h1>@Html.Sitecore().Field("Title", item)</h1>
+    <p>@Html.Sitecore().Field("Subtitle", item)</p>
+    @Html.Sitecore().Field("Image", item)
+    @Html.Sitecore().Field("CTA Link", item)
+</div>

@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../.sitecore/schemas/ModuleFile.schema.json",
+  "namespace": "Feature.Navigation",
+  "items": {
+    "includes": [
+      {
+        "name": "templates",
+        "path": "/sitecore/templates/Feature/Navigation",
+        "scope": "descendantsOnly"
+      },
+      {
+        "name": "renderings",
+        "path": "/sitecore/layout/Renderings/Feature/Navigation",
+        "scope": "descendantsOnly"
+      }
+    ]
+  }
+}
